@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969B09F81E14D22A00BE91FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B09F71E14D22A00BE91FA /* AppDelegate.swift */; };
+		969B09FA1E14D22A00BE91FA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 969B09F91E14D22A00BE91FA /* GameScene.sks */; };
+		969B09FE1E14D22A00BE91FA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B09FD1E14D22A00BE91FA /* GameScene.swift */; };
+		969B0A001E14D22A00BE91FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B09FF1E14D22A00BE91FA /* GameViewController.swift */; };
+		969B0A031E14D22A00BE91FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969B0A011E14D22A00BE91FA /* Main.storyboard */; };
+		969B0A051E14D22A00BE91FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969B0A041E14D22A00BE91FA /* Assets.xcassets */; };
+		969B0A081E14D22A00BE91FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969B0A061E14D22A00BE91FA /* LaunchScreen.storyboard */; };
+		96CE862E1E14D349004E1AB3 /* tileset.sks in Resources */ = {isa = PBXBuildFile; fileRef = 96CE862D1E14D349004E1AB3 /* tileset.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		969B09F41E14D22A00BE91FA /* Tower Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tower Escape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969B09F71E14D22A00BE91FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		969B09F91E14D22A00BE91FA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		969B09FD1E14D22A00BE91FA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		969B09FF1E14D22A00BE91FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		969B0A021E14D22A00BE91FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969B0A041E14D22A00BE91FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969B0A071E14D22A00BE91FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		969B0A091E14D22A00BE91FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CE862D1E14D349004E1AB3 /* tileset.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = tileset.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969B09F11E14D22A00BE91FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969B09EB1E14D22A00BE91FA = {
+			isa = PBXGroup;
+			children = (
+				969B09F61E14D22A00BE91FA /* Tower Escape */,
+				969B09F51E14D22A00BE91FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		969B09F51E14D22A00BE91FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969B09F41E14D22A00BE91FA /* Tower Escape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969B09F61E14D22A00BE91FA /* Tower Escape */ = {
+			isa = PBXGroup;
+			children = (
+				969B09F71E14D22A00BE91FA /* AppDelegate.swift */,
+				969B09F91E14D22A00BE91FA /* GameScene.sks */,
+				969B09FD1E14D22A00BE91FA /* GameScene.swift */,
+				969B09FF1E14D22A00BE91FA /* GameViewController.swift */,
+				969B0A011E14D22A00BE91FA /* Main.storyboard */,
+				969B0A041E14D22A00BE91FA /* Assets.xcassets */,
+				969B0A061E14D22A00BE91FA /* LaunchScreen.storyboard */,
+				969B0A091E14D22A00BE91FA /* Info.plist */,
+				96CE862D1E14D349004E1AB3 /* tileset.sks */,
+			);
+			path = "Tower Escape";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969B09F31E14D22A00BE91FA /* Tower Escape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969B0A0C1E14D22A00BE91FA /* Build configuration list for PBXNativeTarget "Tower Escape" */;
+			buildPhases = (
+				969B09F01E14D22A00BE91FA /* Sources */,
+				969B09F11E14D22A00BE91FA /* Frameworks */,
+				969B09F21E14D22A00BE91FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tower Escape";
+			productName = "Tower Escape";
+			productReference = 969B09F41E14D22A00BE91FA /* Tower Escape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969B09EC1E14D22A00BE91FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ikram;
+				TargetAttributes = {
+					969B09F31E14D22A00BE91FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 969B09EF1E14D22A00BE91FA /* Build configuration list for PBXProject "Tower Escape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969B09EB1E14D22A00BE91FA;
+			productRefGroup = 969B09F51E14D22A00BE91FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969B09F31E14D22A00BE91FA /* Tower Escape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969B09F21E14D22A00BE91FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CE862E1E14D349004E1AB3 /* tileset.sks in Resources */,
+				969B0A031E14D22A00BE91FA /* Main.storyboard in Resources */,
+				969B09FA1E14D22A00BE91FA /* GameScene.sks in Resources */,
+				969B0A051E14D22A00BE91FA /* Assets.xcassets in Resources */,
+				969B0A081E14D22A00BE91FA /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969B09F01E14D22A00BE91FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969B09FE1E14D22A00BE91FA /* GameScene.swift in Sources */,
+				969B0A001E14D22A00BE91FA /* GameViewController.swift in Sources */,
+				969B09F81E14D22A00BE91FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		969B0A011E14D22A00BE91FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969B0A021E14D22A00BE91FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		969B0A061E14D22A00BE91FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969B0A071E14D22A00BE91FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969B0A0A1E14D22A00BE91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		969B0A0B1E14D22A00BE91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969B0A0D1E14D22A00BE91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tower Escape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ikramsal.Tower-Escape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		969B0A0E1E14D22A00BE91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tower Escape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ikramsal.Tower-Escape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969B09EF1E14D22A00BE91FA /* Build configuration list for PBXProject "Tower Escape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969B0A0A1E14D22A00BE91FA /* Debug */,
+				969B0A0B1E14D22A00BE91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969B0A0C1E14D22A00BE91FA /* Build configuration list for PBXNativeTarget "Tower Escape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969B0A0D1E14D22A00BE91FA /* Debug */,
+				969B0A0E1E14D22A00BE91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969B09EC1E14D22A00BE91FA /* Project object */;
+}
